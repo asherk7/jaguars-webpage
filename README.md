@@ -1,2 +1,3 @@
-# jaguars-webpage
-Created a simple webpage using HTML, CSS, and flexbox
+# Jaguars News Page
+A sample news page for the NFL team, the Jacksonville Jaguars.  
+CSS project for The Odin Project.
