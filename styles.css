@@ -1,6 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-
 }
 
 html, body {
@@ -29,6 +28,11 @@ body {
 .leftside img{
     width: 45px;
     height: 40px;
+}
+
+.rightside img{
+    width: 25px;
+    height: 25px;
 }
 
 .header-bottom img{
@@ -80,9 +84,11 @@ a{
 .socials{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 16px;
     margin-top: -12px;
+    margin-right: 75px;
+    margin-left: 75px;
 }
 
 .social{
@@ -90,6 +96,8 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: white;
+    border-radius: 15px;
+    padding: 8px;
 }
 
 .socials img{
