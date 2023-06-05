@@ -255,15 +255,18 @@ iframe{
 
 .card{
     background-color: white;
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 16px;
-    padding: 20px;
+    max-width: 250px;
+    flex: 1 1 0;
 }
 
 .card img{
-    width: 200px;
+    flex: 0 1 auto;
+    width: 250px;
     height: 200px;
     object-fit: cover;
 }
